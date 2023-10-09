@@ -1,2 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
+header{
+    background-color: rgb(255, 213, 0);
+    padding-block: 15px;
+    border-bottom: 8px solid rgb(68, 128, 0);
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+h1, h2{
+    display: block;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+nav{
+    background-color: rgba(101, 36, 186, 0.764);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 10px;
+    border-radius: 10px;
+}
+nav>a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#summary, #actor, #quote{
+    padding-inline: 50px;
+    margin-block-start: 50px;
+    text-align: justify;
+}
+
+aside{
+    margin-block: 20px;
+    display: block;
+    text-align: center;
+    background-color: rgba(52, 0, 119, 0.966);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding-block: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+footer{
+    margin-block: 20px;
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 213, 0);
+    border-radius: 10px;
+    padding-block: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+    text-transform:uppercase;
+}
 /* Your CSS Code here. */
